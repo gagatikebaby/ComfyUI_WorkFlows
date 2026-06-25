@@ -1,0 +1,578 @@
+{
+    "synced_at":  "2026-06-24T09:14:02",
+    "project_root":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT",
+    "artifact_root":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs",
+    "comfy_root":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI",
+    "source_dirs":  {
+                        "keyframes":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes",
+                        "videos_stable":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_stable_videos",
+                        "references":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_references",
+                        "videos":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_videos"
+                    },
+    "target_dirs":  {
+                        "keyframes":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes",
+                        "videos_stable":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable",
+                        "references":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\references",
+                        "videos":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos"
+                    },
+    "expected":  {
+                     "references":  5,
+                     "keyframes":  12,
+                     "videos":  11,
+                     "videos_stable":  12
+                 },
+    "copied":  {
+                   "references":  5,
+                   "keyframes":  12,
+                   "videos":  11,
+                   "videos_stable":  0
+               },
+    "missing":  [
+                    {
+                        "group":  "videos_stable",
+                        "id":  "V001_CT001_stable",
+                        "filter":  "V001_CT001_stable*.*",
+                        "found":  false,
+                        "source":  null,
+                        "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V001_CT001_stable.mp4",
+                        "bytes":  0,
+                        "last_write_time":  null,
+                        "missing_reason":  "source_dir_missing"
+                    },
+                    {
+                        "group":  "videos_stable",
+                        "id":  "V002_CT002_stable",
+                        "filter":  "V002_CT002_stable*.*",
+                        "found":  false,
+                        "source":  null,
+                        "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V002_CT002_stable.mp4",
+                        "bytes":  0,
+                        "last_write_time":  null,
+                        "missing_reason":  "source_dir_missing"
+                    },
+                    {
+                        "group":  "videos_stable",
+                        "id":  "V003_CT003_stable",
+                        "filter":  "V003_CT003_stable*.*",
+                        "found":  false,
+                        "source":  null,
+                        "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V003_CT003_stable.mp4",
+                        "bytes":  0,
+                        "last_write_time":  null,
+                        "missing_reason":  "source_dir_missing"
+                    },
+                    {
+                        "group":  "videos_stable",
+                        "id":  "V004_CT004_stable",
+                        "filter":  "V004_CT004_stable*.*",
+                        "found":  false,
+                        "source":  null,
+                        "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V004_CT004_stable.mp4",
+                        "bytes":  0,
+                        "last_write_time":  null,
+                        "missing_reason":  "source_dir_missing"
+                    },
+                    {
+                        "group":  "videos_stable",
+                        "id":  "V005_CT005_stable",
+                        "filter":  "V005_CT005_stable*.*",
+                        "found":  false,
+                        "source":  null,
+                        "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V005_CT005_stable.mp4",
+                        "bytes":  0,
+                        "last_write_time":  null,
+                        "missing_reason":  "source_dir_missing"
+                    },
+                    {
+                        "group":  "videos_stable",
+                        "id":  "V006_CT006_stable",
+                        "filter":  "V006_CT006_stable*.*",
+                        "found":  false,
+                        "source":  null,
+                        "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V006_CT006_stable.mp4",
+                        "bytes":  0,
+                        "last_write_time":  null,
+                        "missing_reason":  "source_dir_missing"
+                    },
+                    {
+                        "group":  "videos_stable",
+                        "id":  "V007_CT007_stable",
+                        "filter":  "V007_CT007_stable*.*",
+                        "found":  false,
+                        "source":  null,
+                        "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V007_CT007_stable.mp4",
+                        "bytes":  0,
+                        "last_write_time":  null,
+                        "missing_reason":  "source_dir_missing"
+                    },
+                    {
+                        "group":  "videos_stable",
+                        "id":  "V008_CT008_stable",
+                        "filter":  "V008_CT008_stable*.*",
+                        "found":  false,
+                        "source":  null,
+                        "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V008_CT008_stable.mp4",
+                        "bytes":  0,
+                        "last_write_time":  null,
+                        "missing_reason":  "source_dir_missing"
+                    },
+                    {
+                        "group":  "videos_stable",
+                        "id":  "V009_CT009_stable",
+                        "filter":  "V009_CT009_stable*.*",
+                        "found":  false,
+                        "source":  null,
+                        "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V009_CT009_stable.mp4",
+                        "bytes":  0,
+                        "last_write_time":  null,
+                        "missing_reason":  "source_dir_missing"
+                    },
+                    {
+                        "group":  "videos_stable",
+                        "id":  "V010_CT010_stable",
+                        "filter":  "V010_CT010_stable*.*",
+                        "found":  false,
+                        "source":  null,
+                        "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V010_CT010_stable.mp4",
+                        "bytes":  0,
+                        "last_write_time":  null,
+                        "missing_reason":  "source_dir_missing"
+                    },
+                    {
+                        "group":  "videos_stable",
+                        "id":  "V011_CT011_stable",
+                        "filter":  "V011_CT011_stable*.*",
+                        "found":  false,
+                        "source":  null,
+                        "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V011_CT011_stable.mp4",
+                        "bytes":  0,
+                        "last_write_time":  null,
+                        "missing_reason":  "source_dir_missing"
+                    },
+                    {
+                        "group":  "videos_stable",
+                        "id":  "V012_CT012_stable",
+                        "filter":  "V012_CT012_stable*.*",
+                        "found":  false,
+                        "source":  null,
+                        "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V012_CT012_stable.mp4",
+                        "bytes":  0,
+                        "last_write_time":  null,
+                        "missing_reason":  "source_dir_missing"
+                    }
+                ],
+    "items":  [
+                  {
+                      "group":  "references",
+                      "id":  "CHAR-NURSE",
+                      "filter":  "CHAR-NURSE_reference*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_references\\CHAR-NURSE_reference_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\references\\CHAR-NURSE_reference.png",
+                      "bytes":  580811,
+                      "last_write_time":  "2026-06-23T17:16:40"
+                  },
+                  {
+                      "group":  "references",
+                      "id":  "CHAR-PATIENT",
+                      "filter":  "CHAR-PATIENT_reference*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_references\\CHAR-PATIENT_reference_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\references\\CHAR-PATIENT_reference.png",
+                      "bytes":  585832,
+                      "last_write_time":  "2026-06-23T17:16:52"
+                  },
+                  {
+                      "group":  "references",
+                      "id":  "SCN-RAD-DEPT",
+                      "filter":  "SCN-RAD-DEPT_reference*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_references\\SCN-RAD-DEPT_reference_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\references\\SCN-RAD-DEPT_reference.png",
+                      "bytes":  481584,
+                      "last_write_time":  "2026-06-23T17:17:04"
+                  },
+                  {
+                      "group":  "references",
+                      "id":  "SCN-CT-ROOM",
+                      "filter":  "SCN-CT-ROOM_reference*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_references\\SCN-CT-ROOM_reference_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\references\\SCN-CT-ROOM_reference.png",
+                      "bytes":  521384,
+                      "last_write_time":  "2026-06-23T17:17:16"
+                  },
+                  {
+                      "group":  "references",
+                      "id":  "PROP-CT",
+                      "filter":  "PROP-CT_reference*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_references\\PROP-CT_reference_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\references\\PROP-CT_reference.png",
+                      "bytes":  351615,
+                      "last_write_time":  "2026-06-23T17:17:29"
+                  },
+                  {
+                      "group":  "keyframes",
+                      "id":  "CT001",
+                      "filter":  "CT001_keyframe*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes\\CT001_keyframe_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes\\CT001_keyframe_00001_.png",
+                      "bytes":  650664,
+                      "last_write_time":  "2026-06-23T17:37:25"
+                  },
+                  {
+                      "group":  "keyframes",
+                      "id":  "CT002",
+                      "filter":  "CT002_keyframe*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes\\CT002_keyframe_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes\\CT002_keyframe_00001_.png",
+                      "bytes":  686452,
+                      "last_write_time":  "2026-06-23T17:34:57"
+                  },
+                  {
+                      "group":  "keyframes",
+                      "id":  "CT003",
+                      "filter":  "CT003_keyframe*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes\\CT003_keyframe_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes\\CT003_keyframe_00001_.png",
+                      "bytes":  815490,
+                      "last_write_time":  "2026-06-23T17:35:10"
+                  },
+                  {
+                      "group":  "keyframes",
+                      "id":  "CT004",
+                      "filter":  "CT004_keyframe*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes\\CT004_keyframe_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes\\CT004_keyframe_00001_.png",
+                      "bytes":  854348,
+                      "last_write_time":  "2026-06-23T17:36:11"
+                  },
+                  {
+                      "group":  "keyframes",
+                      "id":  "CT005",
+                      "filter":  "CT005_keyframe*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes\\CT005_keyframe_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes\\CT005_keyframe_00001_.png",
+                      "bytes":  690255,
+                      "last_write_time":  "2026-06-23T17:36:27"
+                  },
+                  {
+                      "group":  "keyframes",
+                      "id":  "CT006",
+                      "filter":  "CT006_keyframe*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes\\CT006_keyframe_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes\\CT006_keyframe_00001_.png",
+                      "bytes":  649917,
+                      "last_write_time":  "2026-06-23T17:34:42"
+                  },
+                  {
+                      "group":  "keyframes",
+                      "id":  "CT007",
+                      "filter":  "CT007_keyframe*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes\\CT007_keyframe_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes\\CT007_keyframe_00001_.png",
+                      "bytes":  822595,
+                      "last_write_time":  "2026-06-23T17:35:54"
+                  },
+                  {
+                      "group":  "keyframes",
+                      "id":  "CT008",
+                      "filter":  "CT008_keyframe*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes\\CT008_keyframe_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes\\CT008_keyframe_00001_.png",
+                      "bytes":  718419,
+                      "last_write_time":  "2026-06-23T17:35:22"
+                  },
+                  {
+                      "group":  "keyframes",
+                      "id":  "CT009",
+                      "filter":  "CT009_keyframe*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes\\CT009_keyframe_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes\\CT009_keyframe_00001_.png",
+                      "bytes":  828258,
+                      "last_write_time":  "2026-06-23T17:37:09"
+                  },
+                  {
+                      "group":  "keyframes",
+                      "id":  "CT010",
+                      "filter":  "CT010_keyframe*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes\\CT010_keyframe_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes\\CT010_keyframe_00001_.png",
+                      "bytes":  604333,
+                      "last_write_time":  "2026-06-23T17:36:56"
+                  },
+                  {
+                      "group":  "keyframes",
+                      "id":  "CT011",
+                      "filter":  "CT011_keyframe*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes\\CT011_keyframe_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes\\CT011_keyframe_00001_.png",
+                      "bytes":  733005,
+                      "last_write_time":  "2026-06-23T17:35:38"
+                  },
+                  {
+                      "group":  "keyframes",
+                      "id":  "CT012",
+                      "filter":  "CT012_keyframe*.png",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_keyframes\\CT012_keyframe_00001_.png",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\keyframes\\CT012_keyframe_00001_.png",
+                      "bytes":  768495,
+                      "last_write_time":  "2026-06-23T17:36:40"
+                  },
+                  {
+                      "group":  "videos",
+                      "id":  "V001_CT001_CT002",
+                      "filter":  "V001_CT001_CT002*.*",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_videos\\V001_CT001_CT002_00001_.mp4",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos\\V001_CT001_CT002.mp4",
+                      "bytes":  528266,
+                      "last_write_time":  "2026-06-23T19:26:24"
+                  },
+                  {
+                      "group":  "videos",
+                      "id":  "V002_CT002_CT003",
+                      "filter":  "V002_CT002_CT003*.*",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_videos\\V002_CT002_CT003_00001_.mp4",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos\\V002_CT002_CT003.mp4",
+                      "bytes":  547094,
+                      "last_write_time":  "2026-06-23T18:25:11"
+                  },
+                  {
+                      "group":  "videos",
+                      "id":  "V003_CT003_CT004",
+                      "filter":  "V003_CT003_CT004*.*",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_videos\\V003_CT003_CT004_00001_.mp4",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos\\V003_CT003_CT004.mp4",
+                      "bytes":  525308,
+                      "last_write_time":  "2026-06-23T18:33:57"
+                  },
+                  {
+                      "group":  "videos",
+                      "id":  "V004_CT004_CT005",
+                      "filter":  "V004_CT004_CT005*.*",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_videos\\V004_CT004_CT005_00001_.mp4",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos\\V004_CT004_CT005.mp4",
+                      "bytes":  565552,
+                      "last_write_time":  "2026-06-23T18:42:41"
+                  },
+                  {
+                      "group":  "videos",
+                      "id":  "V005_CT005_CT006",
+                      "filter":  "V005_CT005_CT006*.*",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_videos\\V005_CT005_CT006_00001_.mp4",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos\\V005_CT005_CT006.mp4",
+                      "bytes":  428968,
+                      "last_write_time":  "2026-06-23T19:00:10"
+                  },
+                  {
+                      "group":  "videos",
+                      "id":  "V006_CT006_CT007",
+                      "filter":  "V006_CT006_CT007*.*",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_videos\\V006_CT006_CT007_00001_.mp4",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos\\V006_CT006_CT007.mp4",
+                      "bytes":  469424,
+                      "last_write_time":  "2026-06-23T19:17:38"
+                  },
+                  {
+                      "group":  "videos",
+                      "id":  "V007_CT007_CT008",
+                      "filter":  "V007_CT007_CT008*.*",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_videos\\V007_CT007_CT008_00001_.mp4",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos\\V007_CT007_CT008.mp4",
+                      "bytes":  528638,
+                      "last_write_time":  "2026-06-23T18:07:40"
+                  },
+                  {
+                      "group":  "videos",
+                      "id":  "V008_CT008_CT009",
+                      "filter":  "V008_CT008_CT009*.*",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_videos\\V008_CT008_CT009_00001_.mp4",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos\\V008_CT008_CT009.mp4",
+                      "bytes":  391515,
+                      "last_write_time":  "2026-06-23T18:16:25"
+                  },
+                  {
+                      "group":  "videos",
+                      "id":  "V009_CT009_CT010",
+                      "filter":  "V009_CT009_CT010*.*",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_videos\\V009_CT009_CT010_00001_.mp4",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos\\V009_CT009_CT010.mp4",
+                      "bytes":  423587,
+                      "last_write_time":  "2026-06-23T17:58:55"
+                  },
+                  {
+                      "group":  "videos",
+                      "id":  "V010_CT010_CT011",
+                      "filter":  "V010_CT010_CT011*.*",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_videos\\V010_CT010_CT011_00001_.mp4",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos\\V010_CT010_CT011.mp4",
+                      "bytes":  445993,
+                      "last_write_time":  "2026-06-23T19:08:54"
+                  },
+                  {
+                      "group":  "videos",
+                      "id":  "V011_CT011_CT012",
+                      "filter":  "V011_CT011_CT012*.*",
+                      "found":  true,
+                      "source":  "E:\\ComfiUI\\ComfyUI_windows_portable_nvidia_cu126\\ComfyUI_windows_portable\\ComfyUI\\output\\story_pipeline_ct_wan22_videos\\V011_CT011_CT012_00001_.mp4",
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos\\V011_CT011_CT012.mp4",
+                      "bytes":  474331,
+                      "last_write_time":  "2026-06-23T18:51:25"
+                  },
+                  {
+                      "group":  "videos_stable",
+                      "id":  "V001_CT001_stable",
+                      "filter":  "V001_CT001_stable*.*",
+                      "found":  false,
+                      "source":  null,
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V001_CT001_stable.mp4",
+                      "bytes":  0,
+                      "last_write_time":  null,
+                      "missing_reason":  "source_dir_missing"
+                  },
+                  {
+                      "group":  "videos_stable",
+                      "id":  "V002_CT002_stable",
+                      "filter":  "V002_CT002_stable*.*",
+                      "found":  false,
+                      "source":  null,
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V002_CT002_stable.mp4",
+                      "bytes":  0,
+                      "last_write_time":  null,
+                      "missing_reason":  "source_dir_missing"
+                  },
+                  {
+                      "group":  "videos_stable",
+                      "id":  "V003_CT003_stable",
+                      "filter":  "V003_CT003_stable*.*",
+                      "found":  false,
+                      "source":  null,
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V003_CT003_stable.mp4",
+                      "bytes":  0,
+                      "last_write_time":  null,
+                      "missing_reason":  "source_dir_missing"
+                  },
+                  {
+                      "group":  "videos_stable",
+                      "id":  "V004_CT004_stable",
+                      "filter":  "V004_CT004_stable*.*",
+                      "found":  false,
+                      "source":  null,
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V004_CT004_stable.mp4",
+                      "bytes":  0,
+                      "last_write_time":  null,
+                      "missing_reason":  "source_dir_missing"
+                  },
+                  {
+                      "group":  "videos_stable",
+                      "id":  "V005_CT005_stable",
+                      "filter":  "V005_CT005_stable*.*",
+                      "found":  false,
+                      "source":  null,
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V005_CT005_stable.mp4",
+                      "bytes":  0,
+                      "last_write_time":  null,
+                      "missing_reason":  "source_dir_missing"
+                  },
+                  {
+                      "group":  "videos_stable",
+                      "id":  "V006_CT006_stable",
+                      "filter":  "V006_CT006_stable*.*",
+                      "found":  false,
+                      "source":  null,
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V006_CT006_stable.mp4",
+                      "bytes":  0,
+                      "last_write_time":  null,
+                      "missing_reason":  "source_dir_missing"
+                  },
+                  {
+                      "group":  "videos_stable",
+                      "id":  "V007_CT007_stable",
+                      "filter":  "V007_CT007_stable*.*",
+                      "found":  false,
+                      "source":  null,
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V007_CT007_stable.mp4",
+                      "bytes":  0,
+                      "last_write_time":  null,
+                      "missing_reason":  "source_dir_missing"
+                  },
+                  {
+                      "group":  "videos_stable",
+                      "id":  "V008_CT008_stable",
+                      "filter":  "V008_CT008_stable*.*",
+                      "found":  false,
+                      "source":  null,
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V008_CT008_stable.mp4",
+                      "bytes":  0,
+                      "last_write_time":  null,
+                      "missing_reason":  "source_dir_missing"
+                  },
+                  {
+                      "group":  "videos_stable",
+                      "id":  "V009_CT009_stable",
+                      "filter":  "V009_CT009_stable*.*",
+                      "found":  false,
+                      "source":  null,
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V009_CT009_stable.mp4",
+                      "bytes":  0,
+                      "last_write_time":  null,
+                      "missing_reason":  "source_dir_missing"
+                  },
+                  {
+                      "group":  "videos_stable",
+                      "id":  "V010_CT010_stable",
+                      "filter":  "V010_CT010_stable*.*",
+                      "found":  false,
+                      "source":  null,
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V010_CT010_stable.mp4",
+                      "bytes":  0,
+                      "last_write_time":  null,
+                      "missing_reason":  "source_dir_missing"
+                  },
+                  {
+                      "group":  "videos_stable",
+                      "id":  "V011_CT011_stable",
+                      "filter":  "V011_CT011_stable*.*",
+                      "found":  false,
+                      "source":  null,
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V011_CT011_stable.mp4",
+                      "bytes":  0,
+                      "last_write_time":  null,
+                      "missing_reason":  "source_dir_missing"
+                  },
+                  {
+                      "group":  "videos_stable",
+                      "id":  "V012_CT012_stable",
+                      "filter":  "V012_CT012_stable*.*",
+                      "found":  false,
+                      "source":  null,
+                      "target":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking\\20260623CT\\outputs\\videos_stable\\V012_CT012_stable.mp4",
+                      "bytes":  0,
+                      "last_write_time":  null,
+                      "missing_reason":  "source_dir_missing"
+                  }
+              ]
+}

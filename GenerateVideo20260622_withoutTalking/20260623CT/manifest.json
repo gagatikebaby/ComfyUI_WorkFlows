@@ -1,0 +1,48 @@
+{
+  "project": "GenerateVideo20260623CT",
+  "created_at": "2026-06-23T09:13:10.549Z",
+  "local_package": "C:\\Users\\zanli\\Documents\\Codex\\2026-06-17\\comfyui\\outputs\\GenerateVideo20260623CT",
+  "target_package": "E:/ComfiUI/GLH_WorkFlow/GenerateVideo20260622_withoutTalking/20260623CT",
+  "workflows": [
+    {
+      "file": "01_hospital_ct_reference_generate_workflow.json",
+      "nodes": 35,
+      "links": 47
+    },
+    {
+      "file": "02_hospital_ct_flux_keyframes_workflow.json",
+      "nodes": 102,
+      "links": 146,
+      "frames": 12
+    },
+    {
+      "file": "03_hospital_ct_wan22_flf2v_video_workflow.json",
+      "nodes": 119,
+      "links": 211,
+      "videos": 11
+    },
+    {
+      "file": "03b_hospital_ct_wan22_stable_singleframe_video_workflow.json",
+      "nodes": 129,
+      "links": 230,
+      "videos": 12,
+      "note": "Recommended stable version: same keyframe as first and last frame, hard-cut clips in editing."
+    }
+  ],
+  "storyboard": "docs/hospital_ct_process_storyboard.xlsx",
+  "artifact_dirs": {
+    "root": "outputs",
+    "references": "outputs/references",
+    "keyframes": "outputs/keyframes",
+    "videos": "outputs/videos",
+    "videos_stable": "outputs/videos_stable",
+    "sync_manifest": "outputs/manifest_outputs.json"
+  },
+  "sync_script": "scripts/sync_ct_outputs_to_project.ps1",
+  "expected_outputs": {
+    "references": 5,
+    "keyframes": 12,
+    "videos": 11,
+    "videos_stable": 12
+  }
+}

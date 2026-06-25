@@ -1,0 +1,10 @@
+﻿{
+    "project_name":  "GenerateVideo20260622_ContainTalking",
+    "purpose":  "stage_2_post_process_add_talking_or_lipsync",
+    "source_project":  "E:\\ComfiUI\\GLH_WorkFlow\\GenerateVideo20260622_withoutTalking",
+    "workflow":  "workflows/story_pipeline_04_wan_infinite_talk_lipsync_workflow.json",
+    "source_videos_count":  9,
+    "keyframes_count":  24,
+    "references_count":  5,
+    "outputs":  "talking_outputs/"
+}
